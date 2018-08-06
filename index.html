@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Masonry</title>
+        <style>
+            body {
+                width: 1000px;
+                margin: 10% auto;
+                background: url(img/main.jpg) no-repeat center;
+                background-color: #000000;
+                background-size: 100%;
+                color: #ffffff;
+                font-size: 30px;
+            }
+            h1 {
+                margin-left: 20%;
+                text-align: top;
+                font-size: 50px;
+                transform: translateY(-120px);
+            }
+            h2 {
+                margin-left: 20%;
+                text-align: bottom;
+                font-size: 50px;
+                transform: translateY(120px);
+            }
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 30px;
+            }
+            .container div:first-of-type {
+                margin-left: 600px;
+            }
+            .btn {
+                display: flex;
+                text-decoration: none;
+                justify-content: center;
+                text-transform: uppercase;
+                padding: 10px;
+            }
+            .btn a {
+                text-decoration: none;    
+                font-size: 14px;
+                color: #FFFFFF;
+                padding: 15px 25px;
+                background-color: transparent;
+                border: 1px solid #FFFFFF;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 200px;
+                transition: background-color .3s;
+            }
+            .btn a:last-child {
+                text-decoration: none;  
+                padding: 15px 32px;
+            }
+            .btn a:hover {
+                text-decoration: none;  
+                font-size: 14px;
+                color: #FFFFFF;
+                background-color: #000000;
+                border: #03a9f4;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 200px;
+            }
+            .container {
+                display: flex;
+                /* flex-direction: column; */
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Никто не найдёт твоих ошибок</h2>
+        <div class="container">
+            <div class="btn"><a href="float.html">Float</a></div>
+            <div class="btn"><a href="flex.html">Flex</a></div>
+            <div class="btn"><a href="grid.html">Grid</a></div>
+        </div>
+        <h2>если ты не сделаешь домашку</h2>
+    </body>
+</html>

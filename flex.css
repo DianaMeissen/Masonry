@@ -1,0 +1,33 @@
+
+body {
+  background: url(img/bg.jpg);
+}
+
+h1 {
+  text-align: center;
+  line-height: 8vw;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+
+img {
+  flex: auto;
+  max-height: 300px;
+  min-width: 150px;
+  margin: 0 10px 10px 0;
+  object-fit: cover;
+}
+
+@media (max-width: 550px) {
+  img {
+    max-width: 47vw;
+    max-height: 44vw;
+    margin: 0 1vw 1vw 0;
+  }
+}

@@ -1,0 +1,29 @@
+body {
+  background: url(img/bg.jpg);
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  line-height: 8vw;
+}
+
+section {
+  display: block;
+  position: relative;
+  padding: 0px 100px 50px 100px;
+}
+
+img {
+  display: inline-block;
+  float: left;
+  margin-left: calc(10%/3);
+  margin-bottom: calc(10%/3);
+  height: 300px;
+}
+
+@media (max-width: 900px){
+  section {
+    padding: 2px 20px 5px 20px;
+  }
+}
